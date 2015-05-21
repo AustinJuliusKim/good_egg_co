@@ -1,4 +1,5 @@
 ActiveAdmin.register Orders do
+  permit_params :order_number, :quantity, :price
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
